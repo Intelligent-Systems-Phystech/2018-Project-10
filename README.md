@@ -19,7 +19,9 @@
 
 * **Эксперт**: Л. М. Местецкий (морфологические методы).
 
+## Работа с репозиторием
 
+[Link Review] - обзор литературы и её анализ. Для редактирования, запросите доступ. Редактировать могут только участники проекта и администрация.
 
 <!-- Links -->
 
@@ -34,3 +36,5 @@
 [code]:https://github.com/eragonruan/text-detection-ctpn
 
 [Avito 2014 winner’s solution]:http://www.machinelearning.ru/wiki/images/f/f1/Avito.ru-2014_Ulyanov_presentation.pdf
+
+[Link Review]:https://docs.google.com/document/d/1Gocn0x-FfYkD_L7ZLZdULxNTBfo25OMMKPBr2-otw-w/edit?usp=sharing
