@@ -1,0 +1,25 @@
+\begin{thebibliography}{1}
+
+\bibitem{Deng2018}
+Dan Deng, Haifeng Liu, Xuelong Li, and Deng Cai.
+\newblock Pixellink: Detecting scene text via instance segmentation.
+
+\bibitem{Liao2018}
+Minghui Liao, Baoguang Shi, and Xiang Bai.
+\newblock Textboxes++: A single-shot oriented scene text detector.
+
+\bibitem{Shi2017}
+Baoguang Shi, Xiang Bai, and Serge Belongie.
+\newblock Detecting oriented text in natural images by linking segments.
+
+\bibitem{Tian2016}
+Zhi Tian, Weilin Huang, Tong He, Pan He, and Yu~Qiao.
+\newblock Detecting text in natural image with connectionist text proposal
+  network.
+
+\bibitem{Zhou2017}
+Xinyu Zhou, Cong Yao, He~Wen, Yuzhi Wang, Shuchang Zhou, Weiran He, and Jiajun
+  Liang.
+\newblock East: An efficient and accurate scene text detector.
+
+\end{thebibliography}

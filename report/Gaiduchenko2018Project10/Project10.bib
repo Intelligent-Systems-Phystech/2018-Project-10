@@ -1,0 +1,110 @@
+% Encoding: UTF-8
+
+@Article{Deng2018,
+  author      = {Dan Deng and Haifeng Liu and Xuelong Li and Deng Cai},
+  title       = {PixelLink: Detecting Scene Text via Instance Segmentation},
+  date        = {2018-01-04},
+  eprint      = {http://arxiv.org/abs/1801.01315v1},
+  eprintclass = {cs.CV},
+  eprinttype  = {arXiv},
+  abstract    = {Most state-of-the-art scene text detection algorithms are deep learning based methods that depend on bounding box regression and perform at least two kinds of predictions: text/non-text classification and location regression. Regression plays a key role in the acquisition of bounding boxes in these methods, but it is not indispensable because text/non-text prediction can also be considered as a kind of semantic segmentation that contains full location information in itself. However, text instances in scene images often lie very close to each other, making them very difficult to separate via semantic segmentation. Therefore, instance segmentation is needed to address this problem. In this paper, PixelLink, a novel scene text detection algorithm based on instance segmentation, is proposed. Text instances are first segmented out by linking pixels within the same instance together. Text bounding boxes are then extracted directly from the segmentation result without location regression. Experiments show that, compared with regression-based methods, PixelLink can achieve better or comparable performance on several benchmarks, while requiring many fewer training iterations and less training data.},
+  file        = {:http\://arxiv.org/pdf/1801.01315v1:PDF},
+  keywords    = {cs.CV},
+}
+
+@Article{He2017,
+  author      = {Wenhao He and Xu-Yao Zhang and Fei Yin and Cheng-Lin Liu},
+  title       = {Deep Direct Regression for Multi-Oriented Scene Text Detection},
+  date        = {2017-03-24},
+  eprint      = {http://arxiv.org/abs/1703.08289v1},
+  eprintclass = {cs.CV},
+  eprinttype  = {arXiv},
+  abstract    = {In this paper, we first provide a new perspective to divide existing high performance object detection methods into direct and indirect regressions. Direct regression performs boundary regression by predicting the offsets from a given point, while indirect regression predicts the offsets from some bounding box proposals. Then we analyze the drawbacks of the indirect regression, which the recent state-of-the-art detection structures like Faster-RCNN and SSD follows, for multi-oriented scene text detection, and point out the potential superiority of direct regression. To verify this point of view, we propose a deep direct regression based method for multi-oriented scene text detection. Our detection framework is simple and effective with a fully convolutional network and one-step post processing. The fully convolutional network is optimized in an end-to-end way and has bi-task outputs where one is pixel-wise classification between text and non-text, and the other is direct regression to determine the vertex coordinates of quadrilateral text boundaries. The proposed method is particularly beneficial for localizing incidental scene texts. On the ICDAR2015 Incidental Scene Text benchmark, our method achieves the F1-measure of 81%, which is a new state-of-the-art and significantly outperforms previous approaches. On other standard datasets with focused scene texts, our method also reaches the state-of-the-art performance.},
+  file        = {:http\://arxiv.org/pdf/1703.08289v1:PDF},
+  keywords    = {cs.CV},
+}
+
+@Article{Tian2016,
+  author      = {Zhi Tian and Weilin Huang and Tong He and Pan He and Yu Qiao},
+  title       = {Detecting Text in Natural Image with Connectionist Text Proposal Network},
+  date        = {2016-09-12},
+  eprint      = {http://arxiv.org/abs/1609.03605v1},
+  eprintclass = {cs.CV},
+  eprinttype  = {arXiv},
+  abstract    = {We propose a novel Connectionist Text Proposal Network (CTPN) that accurately localizes text lines in natural image. The CTPN detects a text line in a sequence of fine-scale text proposals directly in convolutional feature maps. We develop a vertical anchor mechanism that jointly predicts location and text/non-text score of each fixed-width proposal, considerably improving localization accuracy. The sequential proposals are naturally connected by a recurrent neural network, which is seamlessly incorporated into the convolutional network, resulting in an end-to-end trainable model. This allows the CTPN to explore rich context information of image, making it powerful to detect extremely ambiguous text. The CTPN works reliably on multi-scale and multi- language text without further post-processing, departing from previous bottom-up methods requiring multi-step post-processing. It achieves 0.88 and 0.61 F-measure on the ICDAR 2013 and 2015 benchmarks, surpass- ing recent results [8, 35] by a large margin. The CTPN is computationally efficient with 0:14s/image, by using the very deep VGG16 model [27]. Online demo is available at: http://textdet.com/.},
+  file        = {:http\://arxiv.org/pdf/1609.03605v1:PDF},
+  keywords    = {cs.CV},
+}
+
+@Article{Yao2012DetectingTO,
+  author  = {Cong Yao and Xiang Bai and Wenyu Liu and Yi Ma and Zhuowen Tu},
+  title   = {Detecting texts of arbitrary orientations in natural images},
+  journal = {2012 IEEE Conference on Computer Vision and Pattern Recognition},
+  year    = {2012},
+  pages   = {1083-1090},
+}
+
+@Article{Zhou2017,
+  author      = {Xinyu Zhou and Cong Yao and He Wen and Yuzhi Wang and Shuchang Zhou and Weiran He and Jiajun Liang},
+  title       = {EAST: An Efficient and Accurate Scene Text Detector},
+  date        = {2017-04-11},
+  eprint      = {http://arxiv.org/abs/1704.03155v2},
+  eprintclass = {cs.CV},
+  eprinttype  = {arXiv},
+  abstract    = {Previous approaches for scene text detection have already achieved promising performances across various benchmarks. However, they usually fall short when dealing with challenging scenarios, even when equipped with deep neural network models, because the overall performance is determined by the interplay of multiple stages and components in the pipelines. In this work, we propose a simple yet powerful pipeline that yields fast and accurate text detection in natural scenes. The pipeline directly predicts words or text lines of arbitrary orientations and quadrilateral shapes in full images, eliminating unnecessary intermediate steps (e.g., candidate aggregation and word partitioning), with a single neural network. The simplicity of our pipeline allows concentrating efforts on designing loss functions and neural network architecture. Experiments on standard datasets including ICDAR 2015, COCO-Text and MSRA-TD500 demonstrate that the proposed algorithm significantly outperforms state-of-the-art methods in terms of both accuracy and efficiency. On the ICDAR 2015 dataset, the proposed algorithm achieves an F-score of 0.7820 at 13.2fps at 720p resolution.},
+  file        = {:http\://arxiv.org/pdf/1704.03155v2:PDF},
+  keywords    = {cs.CV},
+}
+
+@Article{Ren2015,
+  author      = {Shaoqing Ren and Kaiming He and Ross Girshick and Jian Sun},
+  title       = {Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks},
+  date        = {2015-06-04},
+  eprint      = {http://arxiv.org/abs/1506.01497v3},
+  eprintclass = {cs.CV},
+  eprinttype  = {arXiv},
+  abstract    = {State-of-the-art object detection networks depend on region proposal algorithms to hypothesize object locations. Advances like SPPnet and Fast R-CNN have reduced the running time of these detection networks, exposing region proposal computation as a bottleneck. In this work, we introduce a Region Proposal Network (RPN) that shares full-image convolutional features with the detection network, thus enabling nearly cost-free region proposals. An RPN is a fully convolutional network that simultaneously predicts object bounds and objectness scores at each position. The RPN is trained end-to-end to generate high-quality region proposals, which are used by Fast R-CNN for detection. We further merge RPN and Fast R-CNN into a single network by sharing their convolutional features---using the recently popular terminology of neural networks with 'attention' mechanisms, the RPN component tells the unified network where to look. For the very deep VGG-16 model, our detection system has a frame rate of 5fps (including all steps) on a GPU, while achieving state-of-the-art object detection accuracy on PASCAL VOC 2007, 2012, and MS COCO datasets with only 300 proposals per image. In ILSVRC and COCO 2015 competitions, Faster R-CNN and RPN are the foundations of the 1st-place winning entries in several tracks. Code has been made publicly available.},
+  file        = {:http\://arxiv.org/pdf/1506.01497v3:PDF},
+  keywords    = {cs.CV},
+}
+
+@Article{Liu2015,
+  author      = {Wei Liu and Dragomir Anguelov and Dumitru Erhan and Christian Szegedy and Scott Reed and Cheng-Yang Fu and Alexander C. Berg},
+  title       = {SSD: Single Shot MultiBox Detector},
+  date        = {2015-12-08},
+  doi         = {10.1007/978-3-319-46448-0_2},
+  eprint      = {http://arxiv.org/abs/1512.02325v5},
+  eprintclass = {cs.CV},
+  eprinttype  = {arXiv},
+  abstract    = {We present a method for detecting objects in images using a single deep neural network. Our approach, named SSD, discretizes the output space of bounding boxes into a set of default boxes over different aspect ratios and scales per feature map location. At prediction time, the network generates scores for the presence of each object category in each default box and produces adjustments to the box to better match the object shape. Additionally, the network combines predictions from multiple feature maps with different resolutions to naturally handle objects of various sizes. Our SSD model is simple relative to methods that require object proposals because it completely eliminates proposal generation and subsequent pixel or feature resampling stage and encapsulates all computation in a single network. This makes SSD easy to train and straightforward to integrate into systems that require a detection component. Experimental results on the PASCAL VOC, MS COCO, and ILSVRC datasets confirm that SSD has comparable accuracy to methods that utilize an additional object proposal step and is much faster, while providing a unified framework for both training and inference. Compared to other single stage methods, SSD has much better accuracy, even with a smaller input image size. For $300\times 300$ input, SSD achieves 72.1% mAP on VOC2007 test at 58 FPS on a Nvidia Titan X and for $500\times 500$ input, SSD achieves 75.1% mAP, outperforming a comparable state of the art Faster R-CNN model. Code is available at https://github.com/weiliu89/caffe/tree/ssd .},
+  file        = {:http\://arxiv.org/pdf/1512.02325v5:PDF},
+  keywords    = {cs.CV},
+}
+
+@Article{Liao2018,
+  author       = {Minghui Liao and Baoguang Shi and Xiang Bai},
+  title        = {TextBoxes++: A Single-Shot Oriented Scene Text Detector},
+  journaltitle = {IEEE Transactions on Image Processing 27 (2018) 3676-3690},
+  date         = {2018-01-09},
+  doi          = {10.1109/TIP.2018.2825107},
+  eprint       = {http://arxiv.org/abs/1801.02765v3},
+  eprintclass  = {cs.CV},
+  eprinttype   = {arXiv},
+  abstract     = {Scene text detection is an important step of scene text recognition system and also a challenging problem. Different from general object detection, the main challenges of scene text detection lie on arbitrary orientations, small sizes, and significantly variant aspect ratios of text in natural images. In this paper, we present an end-to-end trainable fast scene text detector, named TextBoxes++, which detects arbitrary-oriented scene text with both high accuracy and efficiency in a single network forward pass. No post-processing other than an efficient non-maximum suppression is involved. We have evaluated the proposed TextBoxes++ on four public datasets. In all experiments, TextBoxes++ outperforms competing methods in terms of text localization accuracy and runtime. More specifically, TextBoxes++ achieves an f-measure of 0.817 at 11.6fps for 1024*1024 ICDAR 2015 Incidental text images, and an f-measure of 0.5591 at 19.8fps for 768*768 COCO-Text images. Furthermore, combined with a text recognizer, TextBoxes++ significantly outperforms the state-of-the-art approaches for word spotting and end-to-end text recognition tasks on popular benchmarks. Code is available at: https://github.com/MhLiao/TextBoxes_plusplus},
+  file         = {:http\://arxiv.org/pdf/1801.02765v3:PDF},
+  keywords     = {cs.CV},
+}
+
+@Article{Shi2017,
+  author      = {Baoguang Shi and Xiang Bai and Serge Belongie},
+  title       = {Detecting Oriented Text in Natural Images by Linking Segments},
+  date        = {2017-03-19},
+  eprint      = {http://arxiv.org/abs/1703.06520v3},
+  eprintclass = {cs.CV},
+  eprinttype  = {arXiv},
+  abstract    = {Most state-of-the-art text detection methods are specific to horizontal Latin text and are not fast enough for real-time applications. We introduce Segment Linking (SegLink), an oriented text detection method. The main idea is to decompose text into two locally detectable elements, namely segments and links. A segment is an oriented box covering a part of a word or text line; A link connects two adjacent segments, indicating that they belong to the same word or text line. Both elements are detected densely at multiple scales by an end-to-end trained, fully-convolutional neural network. Final detections are produced by combining segments connected by links. Compared with previous methods, SegLink improves along the dimensions of accuracy, speed, and ease of training. It achieves an f-measure of 75.0% on the standard ICDAR 2015 Incidental (Challenge 4) benchmark, outperforming the previous best by a large margin. It runs at over 20 FPS on 512x512 images. Moreover, without modification, SegLink is able to detect long lines of non-Latin text, such as Chinese.},
+  file        = {:http\://arxiv.org/pdf/1703.06520v3:PDF},
+  keywords    = {cs.CV},
+}
+
+@Comment{jabref-meta: databaseType:biblatex;}
